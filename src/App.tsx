@@ -3,10 +3,15 @@ import { createBrowserRouter, Navigate } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import PrivateRoutes from "./protected-routes/PrivateRoutes";
 import { AuthProvider } from "./context/AuthContext";
+<<<<<<< HEAD
 import { SocketProvider } from "./context/SocketContext";
 
 import PublicRoute from "./protected-routes/PublicRoutes";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+=======
+import PublicRoute from "./protected-routes/PublicRoutes";
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+>>>>>>> 1d6c740... first commit
 
 // Lazy imports
 const Login = lazy(() => import("./components/auth/Login"));
@@ -50,17 +55,29 @@ function App() {
       ],
     },
   ]);
+<<<<<<< HEAD
   const queryClient = new QueryClient();
+=======
+const queryClient = new QueryClient();
+>>>>>>> 1d6c740... first commit
 
   return (
     <>
       <QueryClientProvider client={queryClient}>
+<<<<<<< HEAD
         <AuthProvider>
           <SocketProvider>
             <RouterProvider router={router} />
           </SocketProvider>
         </AuthProvider>
       </QueryClientProvider>
+=======
+      <AuthProvider>
+        <RouterProvider router={router} />
+      </AuthProvider>
+        </QueryClientProvider>
+
+>>>>>>> 1d6c740... first commit
     </>
   );
 }

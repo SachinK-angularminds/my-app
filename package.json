@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@material-tailwind/html": "^3.0.0-beta.7",
+=======
+>>>>>>> 1d6c740... first commit
     "@tanstack/react-query": "^5.85.8",
     "axios": "^1.11.0",
     "formik": "^2.4.6",

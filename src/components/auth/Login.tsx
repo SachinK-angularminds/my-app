@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React, { useState, type ReactEventHandler } from "react";
+=======
+import React from "react";
+>>>>>>> 1d6c740... first commit
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useAuth } from "../../context/AuthContext";
@@ -21,12 +25,17 @@ function Login() {
         .min(6, "Password must be at least 6 characters")
         .required("Password is required"),
     }),
+<<<<<<< HEAD
     onSubmit: (values: any) => {
+=======
+    onSubmit: (values:any) => {
+>>>>>>> 1d6c740... first commit
       console.log("Form Values:", values);
       login(values);
       navigate("/dashboard");
     },
   });
+<<<<<<< HEAD
   const [count, setCount] = useState<number>(0);
   const [arr, setArr] = useState<number[]>([]);
 
@@ -46,6 +55,9 @@ function Login() {
   //   }
   // }
   console.log(arr, count);
+=======
+
+>>>>>>> 1d6c740... first commit
   return (
     <div className="flex mt-5 items-center justify-center">
       <div className="p-8 bg-white rounded shadow-md w-full max-w-md">
@@ -106,9 +118,12 @@ function Login() {
         </p>
       </div>
     </div>
+<<<<<<< HEAD
   
 
     
+=======
+>>>>>>> 1d6c740... first commit
   );
 }
 

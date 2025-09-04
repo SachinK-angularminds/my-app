@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, type ReactEventHandler } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useAuth } from "../../context/AuthContext";
@@ -21,13 +21,31 @@ function Login() {
         .min(6, "Password must be at least 6 characters")
         .required("Password is required"),
     }),
-    onSubmit: (values:any) => {
+    onSubmit: (values: any) => {
       console.log("Form Values:", values);
       login(values);
       navigate("/dashboard");
     },
   });
+  const [count, setCount] = useState<number>(0);
+  const [arr, setArr] = useState<number[]>([]);
 
+  // function handleChange(e: React.FormEvent<HTMLFormElement>, action: string) {
+  //   e.preventDefault();
+  //   if (count >= 0) {
+  //     if (action == "increment") {
+  //       setCount(count + 1);
+  //       setArr([...arr, count + 1]);
+  //     } else {
+  //       setCount(count - 1);
+  //       const newArr = [...arr]; 
+  //       newArr.pop();
+  //       console.log(newArr, typeof newArr);
+  //       setArr(newArr);
+  //     }
+  //   }
+  // }
+  console.log(arr, count);
   return (
     <div className="flex mt-5 items-center justify-center">
       <div className="p-8 bg-white rounded shadow-md w-full max-w-md">
@@ -88,6 +106,9 @@ function Login() {
         </p>
       </div>
     </div>
+  
+
+    
   );
 }
 

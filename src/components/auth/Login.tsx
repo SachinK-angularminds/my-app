@@ -68,7 +68,7 @@ function Login() {
               placeholder="••••••••"
             />
             {formik.touched.password && formik.errors.password ? (
-              <p className="text-red-500 text-sm">{formik.errors.password}</p>
+              <p className="text-red-500 text-sm">{formik.errors.password}</p> //error for password
             ) : null}
           </div>
 

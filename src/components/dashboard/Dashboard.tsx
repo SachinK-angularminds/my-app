@@ -11,47 +11,7 @@ type Stock = {
 const Dashboard = () => {
   const [stockDataArr, setStockDataArr] = useState<Stock[]>([]);
   
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const accessToken = localStorage.getItem("accessToken");
-
-        if (!accessToken) {
-          throw new Error("Access token is missing");
-        }
-
-        const response = await axiosInstance.get("/api/dashboard/stocks", {
-          headers: {
-            Authorization: `Bearer ${accessToken}`,
-          },
-        });
-
-        console.log(response);
-        const stockDataList = response?.data;
-        setStockDataArr((prev) => {
-          const updated = [...prev];
-
-          // Append each new stock
-          for (let i = 0; i < stockDataList.length; i++) {
-            updated.push({
-              symbol:stockDataList[i]?.symbol,
-              name:stockDataList[i]?.name,
-              price:stockDataList[i]?.price,
-              marketCap:stockDataList[i]?.marketCap,
-              change:stockDataList[i]?.change
-            })
-          }
-
-          // Return the new array
-          return updated;
-        });
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-
-    fetchData();
-  }, []);
+ 
 
   console.log(stockDataArr)
   return (

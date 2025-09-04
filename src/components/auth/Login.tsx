@@ -50,7 +50,7 @@ function Login() {
               placeholder="you@example.com"
             />
             {formik.touched.email && formik.errors.email ? (
-              <p className="text-red-500 text-sm">{formik.errors.email}</p>
+              <p className="text-red-500 text-sm">{formik.errors.email}</p>// error for email
             ) : null}
           </div>
 

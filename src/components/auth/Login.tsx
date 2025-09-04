@@ -62,7 +62,7 @@ function Login() {
               type="password"
               name="password"
               value={formik.values.password}
-              onChange={formik.handleChange}
+              onChange={formik.handleChange} //onchange
               onBlur={formik.handleBlur}
               className="mt-1 w-full border p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="••••••••"

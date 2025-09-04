@@ -59,7 +59,7 @@ const Dashboard = () => {
       {/* grid with 5 per row */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
         {stockDataArr.map((stock, idx) => (
-          <StockCard key={idx} {...stock} />
+          <StockCard key={idx} {...stock} /> //stock card rendering
         ))}
       </div>
     </div>

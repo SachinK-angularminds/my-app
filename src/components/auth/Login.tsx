@@ -168,7 +168,8 @@ function urlBase64ToUint8Array(base64String) {
         <p className="mt-4 text-sm text-center text-gray-600">
           Don't have an account?{" "}
           <a href="/register" className="text-blue-600 hover:underline">
-            Sign up
+            Sign up 
+            
           </a>
         </p>
         <button onClick={subscribeUser}>Enable Push Notifications</button>;

@@ -1,95 +1,96 @@
+// src/context/AuthContext.tsx
 import { createContext, useContext, useEffect, useState } from "react";
-import type{ ReactNode } from "react";
-import axiosInstance from "../axios/axiosInstance"
-import { refreshToken } from "../utils/utils";
+import type { ReactNode } from "react";
+import axiosInstance from "../axios/axiosInstance";
+import { isAxiosError } from "axios";
 
 interface AuthContextType {
-  token:string | null | undefined,
+  token: string | null | undefined;
   user: string | null | undefined;
   isLoading: boolean;
-  login: (userData: { email: string; password: string }) => void;
+  login: (userData: { email: string; password: string }) => Promise<void>;
   logout: () => void;
-  refreshAccessToken:()=>void
+  refreshAccessToken: () => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<string | null | undefined>(undefined);
-  const [token,setToken] = useState<string | null >()
+  const [token, setToken] = useState<string | null | undefined>(undefined);
   const [isLoading, setIsLoading] = useState(true);
 
+  // Initialize token from localStorage
   useEffect(() => {
-    const initializeAuth = () => {
-      const storedUser = localStorage.getItem("accessToken");
-      setToken(storedUser);
-      setIsLoading(false);
-    };
-
-    initializeAuth();
+    const storedToken = localStorage.getItem("accessToken");
+    if (storedToken) {
+      setToken(storedToken);
+    }
+    setIsLoading(false);
   }, []);
 
+  // Login function
   const login = async (userData: { email: string; password: string }) => {
     try {
-      const response = await axiosInstance.post("http://localhost:4000/auth/login", {
+      const response = await axiosInstance.post("/auth/login", {
         email: userData.email,
         password: userData.password,
       });
 
-      if (response.status === 200) {
-        const data = response.data;
-        localStorage.setItem("accessToken", data.accessToken);
-        setUser(userData.email); // Update user state
-        setToken(data.accessToken)
+      const data = response.data; // Axios automatically parses JSON
+      localStorage.setItem("accessToken", data.accessToken);
+      setUser(userData.email);
+      setToken(data.accessToken);
+    } catch (error: unknown) {
+      if (isAxiosError(error)) {
+        console.log(error.response?.data?.message || "Login failed");
       } else {
-        alert(response.data.message);
+        console.log("An unexpected error occurred while logging in.");
       }
-    } catch (error) {
-      console.error("Error during login:", error);
-      alert("An error occurred while logging in.");
+      console.error("Login error:", error);
     }
   };
-  async function refreshAccessToken() {
-  try {
-    const response = await refreshToken()
 
-    if (response.ok) {
-      const data = await response.json();
-      // Store the new access token
+  // Refresh access token
+  const refreshAccessToken = async () => {
+    try {
+      const response = await axiosInstance.post("/auth/refresh");
+      const data = response.data;
       localStorage.setItem("accessToken", data.accessToken);
-      setToken(data.accessToken)
+      setToken(data.accessToken);
       console.log("Access token refreshed");
-    } else {
-      const errorData = await response.json();
-      alert(errorData.message);
+    } catch (error: unknown) {
+      console.error("Error refreshing token:", error);
+      if (isAxiosError(error)) {
+        console.log(error.response?.data?.message || "Token refresh failed");
+      }
     }
-  } catch (error) {
-    console.error("Error refreshing token:", error);
-  }
-}
+  };
 
-
+  // Logout function
   const logout = () => {
     setUser(null);
-    localStorage.removeItem("user");
+    setToken(null);
     localStorage.removeItem("accessToken");
   };
 
   if (isLoading) {
-    return <div>Loading...</div>; // Optional loading UI
+    return <div>Loading...</div>;
   }
 
   return (
-    <AuthContext.Provider value={{ user,token, isLoading, login, refreshAccessToken,logout }}>
+    <AuthContext.Provider
+      value={{ user, token, isLoading, login, refreshAccessToken, logout }}
+    >
       {children}
     </AuthContext.Provider>
   );
 };
 
+// Custom hook to use AuthContext
 export const useAuth = (): AuthContextType => {
   const context = useContext(AuthContext);
-  if (!context) {
+  if (!context)
     throw new Error("useAuth must be used within an AuthProvider");
-  }
   return context;
 };

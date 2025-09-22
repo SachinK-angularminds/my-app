@@ -4,7 +4,8 @@ import { RouterProvider } from "react-router/dom";
 import PrivateRoutes from "./protected-routes/PrivateRoutes";
 import { AuthProvider } from "./context/AuthContext";
 import PublicRoute from "./protected-routes/PublicRoutes";
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { NavigationProvider } from "./context/NavigationContext";
 
 // Lazy imports
 const Login = lazy(() => import("./components/auth/Login"));
@@ -48,16 +49,17 @@ function App() {
       ],
     },
   ]);
-const queryClient = new QueryClient();
+  const queryClient = new QueryClient();
 
   return (
     <>
       <QueryClientProvider client={queryClient}>
-      <AuthProvider>
-        <RouterProvider router={router} />
-      </AuthProvider>
-        </QueryClientProvider>
-
+        <AuthProvider>
+          <NavigationProvider>
+            <RouterProvider router={router} />
+          </NavigationProvider>
+        </AuthProvider>
+      </QueryClientProvider>
     </>
   );
 }

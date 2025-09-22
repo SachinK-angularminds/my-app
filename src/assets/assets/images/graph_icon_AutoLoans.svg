@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+    <g data-name="Group 17008" transform="translate(-490 -695)">
+        <rect data-name="Rectangle 3886" width="26" height="26" rx="4" transform="translate(490 695)" style="fill:#6868f9"/>
+        <g transform="translate(495.996 700.997)">
+            <path data-name="Path 1061" d="m16.424 8.411-.546-.728-.454-2.726A2.341 2.341 0 0 0 13.114 3h-6.18a2.341 2.341 0 0 0-2.309 1.957l-.454 2.726-.546.728A3.124 3.124 0 0 0 3 10.284v4.423a.781.781 0 0 0 .78.78h12.488a.781.781 0 0 0 .78-.78v-4.423a3.125 3.125 0 0 0-.624-1.873z" transform="translate(-3 -3)" style="fill:#fff"/>
+            <circle data-name="Ellipse 210" cx="1" cy="1" r="1" transform="translate(10 7)" style="fill:#6868f9"/>
+            <circle data-name="Ellipse 211" cx="1" cy="1" r="1" transform="translate(2 7)" style="fill:#6868f9"/>
+            <path data-name="Path 1062" d="M19.561 18.78H18v.78a.781.781 0 0 0 .78.78h.78a.781.781 0 0 0 .78-.78V18a.781.781 0 0 1-.779.78z" transform="translate(-6.293 -6.293)" style="fill:#fff"/>
+            <path data-name="Path 1063" d="M3.78 18.78h1.561v.78a.781.781 0 0 1-.78.78H3.78a.781.781 0 0 1-.78-.78V18a.781.781 0 0 0 .78.78z" transform="translate(-3 -6.293)" style="fill:#fff"/>
+            <path data-name="Path 1064" d="M12.9 15H9.78a.781.781 0 0 0-.78.78.781.781 0 0 0 .78.78h3.12a.781.781 0 0 0 .78-.78.781.781 0 0 0-.78-.78z" transform="translate(-4.001 -5.634)" style="fill:#6868f9"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.895" height="17.343" viewBox="0 0 16.895 17.343">
+  <g id="List_icon" transform="translate(0.75 0.75)">
+    <g id="Graph">
+      <path id="Stroke_1" data-name="Stroke 1" d="M11.889,6.377a.877.877,0,0,1,.9.977A6.433,6.433,0,0,1,0,6.335,6.728,6.728,0,0,1,4.728.027a.862.862,0,0,1,1.09.8c0,3.775.126,4.752.839,5.283S8.207,6.377,11.889,6.377Z" transform="translate(0 3.035)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Stroke_3" data-name="Stroke 3" d="M7.079,6.269C7.122,3.843,4.16-.066.55,0A.54.54,0,0,0,.032.523c-.091,1.994.032,4.579.1,5.75A.709.709,0,0,0,.8,6.945a32.074,32.074,0,0,0,5.814-.134A.554.554,0,0,0,7.079,6.269Z" transform="translate(8.314)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

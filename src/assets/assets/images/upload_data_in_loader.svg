@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64.977" height="59.88" viewBox="0 0 64.977 59.88">
+    <defs>
+        <linearGradient id="ozsq6nct3a" y1=".501" x2="1" y2=".501" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ececec"/>
+            <stop offset="1" stop-color="#ececec"/>
+        </linearGradient>
+    </defs>
+    <g data-name="Group 11283">
+        <path data-name="Path 34080" d="M247.85 1908.747 241.569 1877a2.6 2.6 0 0 1 2.544-3.1H287.3a2.59 2.59 0 0 1 2.544 2.091l6.281 31.748a2.6 2.6 0 0 1-2.544 3.1h-43.187a2.59 2.59 0 0 1-2.544-2.092z" transform="translate(-241.519 -1850.958)" style="fill:#efa649"/>
+        <path data-name="Path 34081" d="M368.2 1702.5h36.3a2.6 2.6 0 0 1 2.6 2.6v41.121a2.6 2.6 0 0 1-2.6 2.6h-36.3a2.6 2.6 0 0 1-2.6-2.6V1705.1a2.594 2.594 0 0 1 2.6-2.6z" transform="translate(-356.398 -1692.269)" style="fill:#94a0e6"/>
+        <g data-name="Group 11253">
+            <path data-name="Path 34082" d="M436.2 1563.5h36.3a2.6 2.6 0 0 1 2.6 2.6v41.122a2.6 2.6 0 0 1-2.6 2.6h-36.3a2.6 2.6 0 0 1-2.6-2.6V1566.1a2.594 2.594 0 0 1 2.6-2.6z" transform="translate(-419.763 -1563.5)" style="fill:#4c60d5"/>
+            <path data-name="Path 34083" d="M500.5 1763.168a1.268 1.268 0 0 0 1.268 1.268h29.241a1.268 1.268 0 0 0 1.268-1.268 1.268 1.268 0 0 0-1.268-1.268h-29.241a1.268 1.268 0 0 0-1.268 1.268z" transform="translate(-481.702 -1747.187)" style="fill:#fff;opacity:.4"/>
+            <path data-name="Path 34084" d="M500.5 1866.067a1.267 1.267 0 0 0 1.268 1.268h29.241a1.267 1.267 0 0 0 1.268-1.268 1.268 1.268 0 0 0-1.268-1.268h-29.241a1.263 1.263 0 0 0-1.268 1.268z" transform="translate(-481.702 -1842.455)" style="fill:#fff;opacity:.4"/>
+            <path data-name="Path 34085" d="M500.5 1660.268a1.267 1.267 0 0 0 1.268 1.268h9.114a1.268 1.268 0 0 0 1.268-1.268 1.268 1.268 0 0 0-1.268-1.268h-9.114a1.272 1.272 0 0 0-1.268 1.268z" transform="translate(-481.702 -1651.918)" style="fill:url(#ozsq6nct3a)"/>
+        </g>
+        <path data-name="Path 34086" d="m340.9 1987.7 10.127-25.274a2.573 2.573 0 0 1 2.374-1.624h42.363a2.587 2.587 0 0 1 2.374 3.567l-10.127 25.273a2.573 2.573 0 0 1-2.374 1.624h-42.362a2.59 2.59 0 0 1-2.375-3.566z" transform="translate(-333.355 -1931.414)" style="fill:#ffc274"/>
+    </g>
+</svg>

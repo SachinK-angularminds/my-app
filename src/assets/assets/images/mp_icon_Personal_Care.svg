@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Icon_Personal_care" data-name="Icon/Personal care" transform="translate(-442 -489)">
+    <rect id="Rectangle_2422" data-name="Rectangle 2422" width="30" height="30" rx="15" transform="translate(442 489)" fill="#d2f5ed" opacity="0.49"/>
+    <g id="personal" transform="translate(348.739 495)">
+      <path id="Path_51102" data-name="Path 51102" d="M112.348,463.987a2.165,2.165,0,0,1-1.182.35h-6.722a2.165,2.165,0,0,1-1.182-.35v1.595h9.087v-1.595Z" transform="translate(0 -448.577)" fill="#00d2a3"/>
+      <path id="Path_51103" data-name="Path 51103" d="M170.73,101.2h4.605v1.244H170.73Z" transform="translate(-65.228 -97.842)" fill="#00d2a3"/>
+      <path id="Path_51104" data-name="Path 51104" d="M110.45,168.672h-5.29a4.539,4.539,0,0,0-1.9,3.694v4.285a1.184,1.184,0,0,0,1.182,1.182h6.722a1.184,1.184,0,0,0,1.182-1.182v-4.285A4.539,4.539,0,0,0,110.45,168.672Z" transform="translate(0 -163.07)" fill="#00d2a3"/>
+      <path id="Path_51105" data-name="Path 51105" d="M204.465,0V2.365h2.365V1h4.419V0Z" transform="translate(-97.843)" fill="#00d2a3"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg viewBox="-10 -10 220 220" class="progress__svg">
+        <circle cx="100" cy="100" stroke-width="6" class="progress__meter" r="100">
+        </circle>
+        <circle cx="100" cy="100" stroke-width="6" class="progress__value" r="100" style="stroke-dasharray: 628.319; stroke-dashoffset: 62.8319;">
+        </circle>
+    </svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Icon_Healthcare" data-name="Icon/Healthcare" transform="translate(-445 -619)">
+    <rect id="Rectangle_3889" data-name="Rectangle 3889" width="30" height="30" rx="15" transform="translate(445 619)" fill="#d2f5ed" opacity="0.49"/>
+    <g id="cardiogram" transform="translate(452 601.994)">
+      <path id="Path_51106" data-name="Path 51106" d="M8,26.334A4.691,4.691,0,0,0,.782,32.256H4.23l.613-1.022a.469.469,0,0,1,.8-.01l1.294,2.034,1.887-3.983a.469.469,0,0,1,.836-.022l1.617,3h3.934A4.7,4.7,0,0,0,8,26.334Z" transform="translate(0)" fill="#00d2a3"/>
+      <path id="Path_51107" data-name="Path 51107" d="M57.805,203.7l-1.31-2.434-1.853,3.912a.469.469,0,0,1-.819.051l-1.343-2.11-.36.6a.469.469,0,0,1-.4.228H48.746c.093.1-.4-.4,6.142,6.113a.469.469,0,0,0,.661,0c6.444-6.411,6.049-6.016,6.142-6.113H58.218A.469.469,0,0,1,57.805,203.7Z" transform="translate(-47.223 -170.75)" fill="#00d2a3"/>
+    </g>
+  </g>
+</svg>

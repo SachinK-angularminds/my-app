@@ -1,0 +1,573 @@
+{
+    "COMMON": {
+        "LABEL": {
+            "BLANK": "",
+            "BACK": "Back",
+            "CANCEL": "Cancel",
+            "CLOSE": "Close",
+            "SAVE": "Save",
+            "NEXT": "Next",
+            "SAVE_N_CONTINUE": "Save & continue",
+            "SAVE_N_ADDNEW": "Save & add new",
+            "SAVE_N_EXIT": "Save & exit",
+            "SUBMIT": "Submit",
+            "ADD": "Add",
+            "ADD_NEW": "Add New",
+            "ADD_MORE": "Add More",
+            "EDIT": "Edit",
+            "DELETE": "Delete",
+            "LOAD": "Load",
+            "CALL": "Call",
+            "SMS": "SMS",
+            "EMAIL": "Email",
+            "PLEASE_WAIT": "Please wait ...",
+            "SEARCH": "Search",
+            "SEARCH_AND_ELLIPSIS": "Search ...",
+            "IMPORT": "Import",
+            "EXPORT": "Export",
+            "UPLOAD": "Upload",
+            "UPLOAD_DOCUMENT": "Upload Document",
+            "DOWNLOAD": "Download",
+            "DOWNLOAD_DOCUMENT": "Document Download",
+            "ACTIVE": "Active",
+            "IN_ACTIVE": "In Active",
+            "PRIMARY": "Primary",
+            "MAKE_PRIMARY": "Make Primary",
+            "VERIFIED": "Verified"
+        },
+        "NO_DATA": {
+            "TITLE": "No records found.",
+            "GET_STARTED": {
+                "TITLE": "Yet to start ?",
+                "MESSAGE": "You seem to have still not configured this feature </br>for your organization. Enjoy a seamless experience </br>of the system and explore it to its potential.",
+                "BUTTON": "Start Now !!"
+            }
+        },
+        "ADDRESS": {
+            "TITLE": "Address",
+            "ADDRESS": {
+                "LABEL": "Address",
+                "PLACEHOLDER": "Enter Address",
+                "FINE_TEXT": "",
+                "VALIDATION_ERROR": "Enter a valid address."
+            },
+            "AREA": {
+                "LABEL": "Area/Locality",
+                "PLACEHOLDER": "Enter Area name",
+                "FINE_TEXT": "",
+                "VALIDATION_ERROR": "Enter a valid Area."
+            },
+            "CITY": {
+                "LABEL": "City",
+                "PLACEHOLDER": "Enter City",
+                "FINE_TEXT": "",
+                "VALIDATION_ERROR": "Enter a valid City."
+            },
+            "STATE": {
+                "LABEL": "State",
+                "PLACEHOLDER": "Select State",
+                "FINE_TEXT": "",
+                "VALIDATION_ERROR": "Enter a valid State."
+            },
+            "COUNTRY": {
+                "LABEL": "Country",
+                "PLACEHOLDER": "Select Country",
+                "FINE_TEXT": "",
+                "VALIDATION_ERROR": "Enter a valid Country."
+            },
+            "ZIPCODE": {
+                "LABEL": "Zipcode",
+                "PLACEHOLDER": "Enter Zipcode",
+                "FINE_TEXT": "",
+                "VALIDATION_ERROR": "Enter a valid Zip Code."
+            },
+            "LOCATION": {
+                "LABEL": "Select Location",
+                "PLACEHOLDER": "Select Location",
+                "FINE_TEXT": "",
+                "VALIDATION_ERROR": "Enter a valid Location."
+            }
+        },
+        "VALIDATION_MSG": {
+            "PASSWORD": "Enter valid password.<br/>- include both uppercase &amp; lowercase characters<br/>- include minimum one number &amp; one symbol/special characters<br/>- should be 08 characters or more."
+        }
+    },
+    "ERROR": {
+        "CODE": {
+            "0": "There seems to be some issue with your internet connectivity. Please check your connection and try again.",
+            "401": "Session timeout! You have been logged out due to inactivity.",
+            "403": "You are not authorized to access this content.",
+            "404": "We are sorry, the page you've requested is not available.",
+            "422": "The data you provided is incorrect.",
+            "500": "We are sorry, but we've encounted an error. If this issue persists, please contact our support team."
+        },
+        "GLOBAL": {
+            "CODE": {
+                "400": {
+                    "TITLE": "Bad Request",
+                    "SUBTITLE": "The requested URL does not exist, or it may be restricted<br/>as per company policy. Please enter a correct URL.",
+                    "ACTION_BTN_TITLE": "Goto Homepage !!"
+                }
+            }
+        },
+        "CUSTOM": {
+            "CODE": {
+                "ERROR_USER_ROLE_NOT_EXIST": "That user role does not exist or is invalid. Please try again.",
+                "ERROR_INVALID_ROLE": "ID role is invalid. Please try again.",
+                "ERROR_USER_ALREADY_EXIST": "A user is already registered under this name. Please try a different user to try again.",
+                "ERROR_PASSWORD_AND_CONFIRM_PASSWORD_NOT_MATCH": "Your password and the confirm password do not match. Please ensure that they match before trying again.",
+                "ERROR_OLD_AND_NEW_PASSWORD_MATCH": "Your old password and new password should not match. Please ensure that they do not match before trying again.",
+                "ERROR_INVALID_OLD_PASSWORD": "The old password you have entered is invalid or does not exist. Please enter the correct password and try again.",
+                "ERROR_LINK_WAS_EXPIRED": "This forgotten password link has expired. Request a new one and try again.",
+                "ERROR_USER_NOT_FOUND": "User not found. Please try again.",
+                "ERROR_ORGANIZATION_NOT_FOUND": "Organization not found. Please try again.",
+                "ERROR_INVALID_ORG_STATUS": "Invalid organization status. This organization does not have the pro or trial version.",
+                "ERROR_INVALID_ORGANIZATIONID": "The organization you have entered is invalid. Please enter and try again.",
+                "ERROR_EMAIL_REQUIRED": "A valid email address is required to proceed. Please enter and try again.",
+                "ERROR_ENTER_VALID_EMAILID": "The email address you have entered is invalid or does not exist. Please enter and try again.",
+                "ERROR_EMAIL_LENGTH_EXCEEDED": "You have exceeded the character limit. Email addresses must be shorter than 100 characters to be valid. Please enter and try again.",
+                "ERROR_PASSWORD_REQUIRED": "Your password is required to proceed. Please enter and try again.",
+                "ERROR_PASSWORD_LENGTH_8_16_CHARACTER": "The confirm password length must be between 8-16 characters. Please enter and try again.",
+                "ERROR_CONFIRM_PASSWORD_REQUIRED": "Please confirm your password to proceed.",
+                "ERROR_FIRSTNAME_REQUIRED": "Your first name is required to proceed. Please enter and try again.",
+                "ERROR_FIRSTNAME_MUSTBE_LESSTHEN_50_CHARACTER": "You have exceeded the character limit. First names must be shorter than 50 characters to be valid. Please enter and try again.",
+                "ERROR_LASTNAME_REQUIRED": "Your last name is required to proceed. Please enter and try again.",
+                "ERROR_LASTNAME_MUSTBE_LESSTHEN_50_CHARACTER": "Your last name cannot be greater than 50 characters.",
+                "ERROR_SELECT_GENEDER": "Please enter your gender.",
+                "ERROR_PLEASE_ENTER_VALID_GENEDER": "You have exceeded the character limit. Gender must be shorter than 6 characters to be valid. Please enter and try again.",
+                "ERROR_ADDRESS_REQUIRED": "An address is required to proceed. Please enter and try again.",
+                "ERROR_ADDRESS_MUSTBE_LESSTHEN_1000_CHARACTER": "You have exceeded the character limit. Your address must be shorter than 100 characters to be valid. Please enter and try again.",
+                "ERROR_INVALID_CONTACT_NUMBER": "The contact number you have entered is invalid. Please enter and try again.",
+                "ERROR_DATEOFBIRTH_REQUIRED": "A valid date of birth is required to proceed. Please enter and try again.",
+                "ERROR_ROLE_REQUIRED": "A valid role is required to proceed. Please enter and try again.",
+                "ERROR_ORGANIZATION_NAME_MUSTBE_LESSTHEN_50_CHARACTER": "You have exceeded the character limit. Your organization name must be shorter than 50 characters to be valid. Please enter and try again.",
+                "ERROR_NAME_REQUIRED": "A valid organization name is required to proceed. Please enter and try again.",
+                "ERROR_ACCESS_FORBIDEN": "Sorry, your user role does not have access to this page.",
+                "ERROR_UNAUTHORIZED_USER": "Session timeout! You have been logged out due to inactivity.",
+                "ERROR_TOKEN_EXPIRED": "Sorry, your token has expired.",
+                "ERROR_CERT_FILE_NOT_FOUND": "Cert file not found. Please try again.",
+                "ERROR_MODULE_NOT_FOUND": "Module not found. Please try again.",
+                "ERROR_INVALID_MODULE_REQUEST": "Invalid module request. Please try again.",
+                "ERROR_MODULE_ALREADY_EXIST": "This module already exists. Please try again.",
+                "ERROR_PROVIDE_MODULEID": "A module ID is required to proceed. Please enter and try again.",
+                "ERROR_NOTIFICATION_NOT_FOUND": "Notification not found. Please try again.",
+                "ERROR_INVALID_NOTIFICATION_REQUEST": "Invalid notification request. Please try again.",
+                "ERROR_INVALID_USERID": "The user ID you have entered is invalid. Please enter and try again.",
+                "ERROR_ROLE_ALREADY_EXIST": "The role you are trying to add already exists. Please try again.",
+                "ERROR_PROVIDE_REQUEST_BODY": "The request body for adding a new entry is invalid or empty. Please enter and try again.",
+                "ERROR_PROVIDE_ROLEID": "A role ID is required to delete a role. Please enter and try again.",
+                "ERROR_ROLEMODULEACCESS_NOT_FOUND": "Role module access not found. Please try again.",
+                "ERROR_PROVIDE_ROLEMODULEACCESSID": "A role module access ID is required to delete role access. Please enter and try again.",
+                "ERROR_PROVIDE_ORGANIZATIONID": "A valid organization ID is required to proceed. Please enter and try again.",
+                "ERROR_BHAREQUEST_NOT_FOUND": "BHARequest not found. Please try again.",
+                "ERROR_INVALID_REQUEST": "Invalid request. BHAMapping object not found.",
+                "ERROR_MAPPING_NOT_FOUND": "Mapping ID not found. Please try again.",
+                "ERROR_PROVIDE_BHAMAPPINGID": "A mapping ID is required to proceed. Please enter and try again.",
+                "ERROR_INVALID_CONSUMER_FILE_SIZE": "Invalid file size. Your Consumer file size must be no less than 100 KB and no greater than 5 MB. Please try again.",
+                "ERROR_INVALID_CONSUMER_FILE_FORMAT": "Invalid file format. Please upload your Consumer file as a .CSV file.",
+                "ERROR_PLEASE_UPLOAD_FILE": "No file has been uploaded. Please upload a file before selecting the next option.",
+                "ERROR_INVALID_PRODUCTCATALOGUE_FILE_SIZE": "Invalid file size. Your Product file size must be no less than 0 KB and no greater than 5 MB. Please try again.",
+                "ERROR_CONSUMER_FILE_DATA_EMPTY": "Invalid File: The data within your Consumer file has missing entries or is empty. Please try again.",
+                "ERROR_INVALID_STATUS": "The BHA status is invalid. Please try again.",
+                "ERROR_UNABLE_TO_FIND_BHA_DATA": "BHA EE data not found. Please try again.",
+                "ERROR_STATUS_NOT_COMPLETED": "The BHA status is incomplete.",
+                "ERROR_INVALID_BHAREQUEST_ID": "Invalid ID. A valid BHARequest ID is required to proceed. Please try again.",
+                "ERROR_PAGE_SIZE_NOT_GREATER_THEN_500": "Invalid page size. Page size must be no greater than 500 per page. Please try again.",
+                "ERROR_PAGE_NUMBER_MUSTBE_INTERGER": "Invalid page number. Page number must be a valid integer or whole number. Please try again.",
+                "ERROR_PROVIDE_STATUS": "A valid status is required to proceed. Please enter and try again.",
+                "ERROR_FORBIDDEN_USER": "Sorry, you do not have the requisite permissions to perform this action.",
+                "ERROR_INVALID_USER_OR_PASSWORD": "The username or password used was entered incorrectly or does not exist. Please enter and try again.",
+                "ERROR_INVALID_USERNAME_PASSWORD": "The username or password used was entered incorrectly or does not exist. Please enter and try again.",
+                "ERROR_EMAIL_ALREADY_EXIST": "The email address you have entered is already registered to a user within our system. Please use a different email and try again.",
+                "ERROR_INVALID_PRODUCTCATALOGUE_FILE_HEADERS": "The headers within your Product Data file contain errors or are invalid. Please try again.",
+                "ERROR_PRODUCTCATALOGUE_FILE_DATA_IS_EMPTY": "Invalid File: The data within your Product Data file has missing entries or is empty. Please try again.",
+                "ERROR_INVALID_PRODUCTCATALOGUE_FILE_FORMAT": "Invalid file format. Please upload your Product file as a .CSV file.",
+                "ERROR_INVALID_PRODUCTCATALOGUE_FILE_DATA": "Invalid File: The data within your Product Data file is invalid. Please try again.",
+                "ERROR_PROVIDE_USERNAME_AND_PASSWORD": "The username or password field is empty. Please be sure to provide your username and password.",
+                "ERROR_ORGANIZATION_ALREADY_EXIST": "This organization already exists in our system. Please try a different organization ID or attempt to log in using the existing ID.",
+                "ERROR_INVALID_CONSUMER_FILE_HEADERS": "The headers within your Consumer file contain errors or are invalid. Please try again.",
+                "ERROR_INVALID_BHAREQUEST": "We encountered a change of environment. To continue using the dashboard, you must log out and log in again.",
+                "ERROR_FILE_NOT_FOUND": "File not found. Please try again.",
+                "ERROR_CONSUMER_FILE_DATA_INVALID": "Invalid File: The data within your Consumer file is invalid. Please try again.",
+                "ERROR_CONSUMER_FILE_IS_EMPTY": "Invalid File: The Consumer file does not contain any data.",
+                "ERROR_PRODUCTCATALOGUE_FILE_IS_EMPTY": "Invalid File: The uploaded file does not contain data.",
+                "ERROR_INVALID_EMAIL": "The email address you have entered is invalid or does not exist. Please enter and try again.",
+                "ERROR_IN_EMAIL_RESENDING": "It seems like you are already a registered member.",
+                "ERROR_WRONG_ORG_ASSOCIATION": "You are not authorized to view the data for the selected institution.",
+                "ERROR_NO_ORG_ASSOCIATION": "You do not have access to any institution yet. Please contact administrator.",
+                "ERROR_CONSUMER_DATA_FILE_NOT_CSV_FILE": "Invalid File: There seems to be a problem with the uploaded file. Please check the file before you upload.",
+                "ERROR_SCHEMA_CREATION_ERROR": "There seems to be a problem in creating the analysis report.",
+                "ERROR_REPORTDATA_CARDS_VALUE_ZERO": "There seems to be a problem in creating the analysis report.",
+                "ERROR_COMPUTATION_EE_ERROR": "There seems to be a problem in creating the analysis report.",
+                "ERROR_INVITATION_NOT_FOUND": "It seems like you are already a registered member, or your invitation has expired.",
+                "ERROR_INVITATION_EXPIRED": "It seems like your invitation has expired.",
+                "ERROR_ON_CREATE_ORG": "It seems like your organization isn't valid.",
+                "ERROR_PARENT_ORGANIZATION_NOT_FOUND": "Parent organization not found.",
+                "ERROR_ORG_ASSOCIATION_NOT_FOUND": "Parent and child association not found.",
+                "ERROR_USER_ALREADY_REGISTER": "It seems like you are already a registered member.",
+                "ERROR_INVITATION_LINK_EXPIRED": "It seems like your invitation link expired.",
+                "ERROR_INVLAID_USER_HASH": "You are trying to register with an invalid key.",
+                "ERROR_INTERNAL_SERVER_ERROR": "Something went wrong.",
+                "ERROR_USER_ALREADY_INVITED": "Invitation already sent.",
+                "ERROR_SAVEDFILTER_JSON_NOT_FOUND": "Invalid saved filter data.",
+                "ERROR_BAD_REQUEST": "Bad request.",
+                "ERROR_SAVEDFILTER_NAME_ALREADY_EXIST": "Filter name already exist.",
+                "ERROR_USER_ALREADY_LOGOUT": "User already logged out.",
+                "ERROR_RESET_PASSWORD_LINK_NOT_SENT": "Your password cannot be reset, as your account has been deactivated.",
+                "ERROR_PROVIDE_SAVED_FILTER_UNIQUE_NAME": "Please provide a unique name for the filter.",
+                "ERROR_PROVIDE_USERID": "Please provide your User ID.",
+                "ERROR_PROVIDE_SAVEDFILTER_JSON": "Please provide filter data to save.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_CONSUMER-DETAILS_FILE_DATA_INVALID": "Invalid File: The data within your Consumer file is invalid.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_CONSUMER-DETAILS_FILE_DATA_EMPTY": "Invalid File: The Consumer file does not contain any data.",
+                "ERROR_INVALID_DATA-UPLOAD-TEMPLATE_CONSUMER-DETAILS_FILE_HEADERS": "The headers within your Consumer file contain errors or are invalid.",
+                "ERROR_INVALID_DATA-UPLOAD-TEMPLATE_CONSUMER-DETAILS_FILE_SIZE": "Invalid file size.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_ACCOUNTS-TO-PRODUCTS-DETAILS_FILE_DATA_INVALID": "Invalid File: The data within your account file is invalid.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_ACCOUNTS-TO-PRODUCTS-DETAILS_FILE_DATA_EMPTY": "Invalid File: The account file does not contain any data.",
+                "ERROR_INVALID_DATA-UPLOAD-TEMPLATE_ACCOUNTS-TO-PRODUCTS-DETAILS_FILE_HEADERS": "The headers within your account file contain errors or are invalid.",
+                "ERROR_INVALID_DATA-UPLOAD-TEMPLATE_ACCOUNTS-TO-PRODUCTS-DETAILS_FILE_SIZE": "Invalid file size. Your account file size must be no less than 100 KB and no greater than 5 MB to be valid.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_PRODUCT-DETAILS_FILE_DATA_INVALID": "Invalid File: The data within your Product file is invalid.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_PRODUCT-DETAILS_FILE_DATA_EMPTY": "Invalid File: The Product file does not contain any data.",
+                "ERROR_INVALID_DATA-UPLOAD-TEMPLATE_PRODUCT-DETAILS_FILE_HEADERS": "The headers within your Product file contain errors or are invalid.",
+                "ERROR_INVALID_DATA-UPLOAD-TEMPLATE_PRODUCT-DETAILS_FILE_SIZE": "Invalid file size. Your Product file size must be no less than 100 KB and no greater than 5 MB to be valid.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_TRANSACTION-DETAILS_FILE_DATA_INVALID": "Invalid File: The data within your transaction file is invalid.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_TRANSACTION-DETAILS_FILE_DATA_EMPTY":"Invalid File: The transaction file does not contain any data.",
+                "ERROR_INVALID_DATA-UPLOAD-TEMPLATE_TRANSACTION-DETAILS_FILE_HEADERS":"The headers within your transaction file contain errors or are invalid.",
+                "ERROR_INVALID_DATA-UPLOAD-TEMPLATE_TRANSACTION-DETAILS_FILE_SIZE":"Invalid file size. Your transaction file size must be no less than 100 KB and no greater than 5 MB to be valid.",
+                "ERROR_ZIP_FOLDER_EMPTY":"The file upload encountered an issue due to an empty Zip file, missing files, or non-compliant filenames. Please review the zip folder, ensuring it contains all files, and upload again.",
+                "ERROR_FILE_DATA_EMPTY":"Invalid File: The file does not contain any data.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_CONSUMER-DETAILS_FILE_NOT_FOUND":"data-upload-template_consumer-details.csv - File not found.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_PRODUCT-DETAILS_FILE_NOT_FOUND":"data-upload-template_product-details.csv - File not found.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_ACCOUNTS-TO-PRODUCTS-DETAILS_FILE_NOT_FOUND":"data-upload-template_accounts-to-products-details.csv - File not found.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_TRANSACTION-DETAILS_FILE_NOT_FOUND":"data-upload-template_transaction-details.csv - File not found.",
+                "ERROR_PROCESSING_FAILED":"We have identified an issue within the internal processing system and are actively working on its resolution.",
+                "ERROR_SOME_TRAN_DATA_INVALID": "Your file contains 50% garbage records. The data may be missing or invalid. Please ensure that the file records match the specified requirements.",
+                "ERROR_BHAREQUEST_NOT_FOUND_OR_ALREADY_INPROGRESS_ANALYSIS": "An ongoing analysis, either initiated by you or your organization, is currently in progress. Kindly await its completion before proceeding with the second analysis.",
+                "ERROR_INVALID_ZIP_SIGNATURE":"Please upload valid zip file.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_PRODUCT-DETAILS_INVALID_CSV_FILE_SIGNATURE":"Please upload valid product file.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_CONSUMER-DETAILS_INVALID_CSV_FILE_SIGNATURE":"Please upload valid consumer file.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_ACCOUNTS-TO-PRODUCTS-DETAILS_INVALID_CSV_FILE_SIGNATURE":"Please upload valid accounts file.",
+                "ERROR_DATA-UPLOAD-TEMPLATE_TRANSACTION-DETAILS_INVALID_CSV_FILE_SIGNATURE":"Please upload valid transactin file.",
+                "BAAS_AUTHORIZATION_FAILED": "Login temporarily unavailable. Background processing in progress. Please try again later.",
+                "ERR_NETWORK": "Network Error",
+                "ERROR_INVALID_ORG_UID": "Organization ID is invalid.",
+                "ERROR_INVALID_CAMPAIGN_ID": "Capaign ID is invalid",
+                "ERROR_CREATE_EMAIL_CAMPAIGN": "Unable to create the email campaign.",
+                "ERROR_UPDATE_EMAIL_CAMPAIGN_DATA_MISSING": "Some required field is missing to update an email campaign.",
+                "ERROR_UPDATE_EMAIL_CAMPAIGN": "Unable to update the email campaign.",
+                "ERROR_CREATE_EMAIL_CAMPAIGN_DATA_MISSING": "Some required field is missing to create an email campaign.",
+                "ERROR_DELETE_EMAIL_CAMPAIGN": "Unable to delete the email campaign.",
+                "ERROR_CAMPAIGN_ID_NOT_FOUND": "Capaign ID is not found.",
+                "ERROR_INVALID_CONSUMER_ID": "Consumer ID is invalid.",
+                "ERROR_CREATE_CUSTOMERLIST_AREADY_EXIST": "Created customer list is already exist.",
+                "ERROR_CREATE_CUSTOMERLIST": "Unable to create the customer list.",
+                "ERROR_UPDATE_CONSUMER": "Unable to update the consumer.",
+                "ERROR_UPDATE_CONSUMER_DATA_MISSING": "Some required field is missing to update the consumer.",
+                "ERROR_DELETE_CONSUMER": "Unable to delete the consumer.",
+                "ERROR_CONSUMER_ID_NOT_FOUND": "Consumer ID is not found.",
+                "ERROR_INVALID_TEMPLATE_ID": "Template ID is invalid.",
+                "ERROR_CREATE_EMAIL_TEMPLATE": "Unable to create an email template.",
+                "ERROR_UPDATE_EMAIL_TEMPLATE": "Unable to update an email template.",
+                "ERROR_DELETE_EMAIL_TEMPLATE": "Unable to delete an email template.",
+                "ERROR_TEMPLATE_ID_NOT_FOUND": "Template ID is not found.",
+                "ERROR_WHILE_SENDING_TEST_MAIL": "There is an error to send a test mail.",
+                "ERROR_INVALID_HTML_BODY": "HTML body is invalid.",
+                "ERROR_INVALID_EMAIL_IDS": "Email IDs are invalid.",
+                "ERROR_CREATE_CUSTOMERLIST_NODATA": "Unable to generate a consumer list due to the absence of data. Kindly retry later or choose valid data.",
+                "ERROR_FROM_SNOWFLAKE_WHILE_GETTING_CONSUMER_DATA": "here is an issue with Snowflake connectivity arising from the backend.",
+                "ERROR_EMAIL_ALREADY_SENT": "The Invitation has been already sent successfully via email. Please note that a new invitation cannot be sent until the current one expires in three days.",
+                "ERROR_INVALID_BAAS_CLIENT_ID": "Seems like BAAS client ID is invalid.",
+                "ERROR_EMAIL_TEMPLATE_NAME_ALREADY_EXIST": "The template name already exist.",
+                "ERROR_EMAIL_CAMPAIGN_NAME_ALREADY_EXIST": "The campaign name already exist.",
+                "ERROR_CUSTOMER_LIST_NAME_ALREADY_EXIST": "The customer list name already exists. Please choose a different name.",
+                "FETCH_ERROR": "Something went wrong fetching data, please refresh the page!",
+                "401": "Session timeout! You have been logged out due to inactivity."
+            }
+        }
+    },
+    "NOTIFICATION": {
+        "COMMON": {
+            "SUCCESS_TITLE": "Success",
+            "ERROR_TITLE": "Error"
+        },
+        "USER_AUTH": {
+            "LOGOUT": "",
+            "FORGOT_PASSWORD": {
+                "SUCCESS_MESSAGE": "The reset link has been sent to the email address you registered with. If you do not have access to this email, please contact your organization administrator.",
+                "ERROR_MESSAGE": "We were unable to process your request. Please contact your organiation administrator."
+            },
+            "RESET_PASSWORD": {
+                "SUCCESS_MESSAGE": "Your password was changed successfully.",
+                "ERROR_MESSAGE": "We were unable to process your request. Please contact your organiation administrator.",
+                "ERROR_TOKEN_EXPIRED": "Forgot password link has expired. Please send a new forgot password request.",
+                "ERROR_USER_INVALID": "The email provided does not exist. Please enter a correct email address."
+            }
+        },
+        "ORGANIZATION_DETAILS": {
+            "SUCCESS_MESSAGE": "Organization information was successfully saved."
+        },
+        "CONTACT_DETAILS": {
+            "SUCCESS_MESSAGE": "Contact information was successfully saved."
+        },
+        "USER_DETAILS": {
+            "SUCCESS_MESSAGE": "User information was successfully saved."
+        },
+        "ACCOUNT_DETAILS": {
+            "SUCCESS_MESSAGE": "Account information saved successfully.",
+            "SAVE_ERROR": "Error occured while saving. Check log or contact an administrator for support."
+        },
+        "DOCUMENT_MODAL": {
+            "UPLOAD_SUCCESS_MESSAGE": "The document was successfully uploaded.",
+            "UPLOAD_ERROR_MESSAGE": "An error occured while uploading the documents."
+        },
+        "NOTE_MODAL": {
+            "SUCCESS_MESSAGE": "The note was successfully saved.",
+            "ERROR_MESSAGE": "An error occured while saving the note."
+        },
+        "USER_DETAILS_UPDATED_SUCCESSFULLY": "User details were updated successfully.",
+        "USER_UPDATED_SUCCESSFULLY": "User details were updated successfully.",
+        "PASSWORD_CHANGED_SUCCESSFULLY": "Password updated successfully.",
+        "ORGANIZATION_ADDED_SUCCESSFULLY": "Organization added successfully.",
+        "FTP_USER_CREATED_SUCCESSFULLY": "SFTP was created successfully.",
+        "FTP_USER_DELETED_SUCCESSFULLY": "The deactivation of SFTP was successful."
+    },
+    "PAGE": {
+        "DASHBOARD": {
+            "TITLE": "Dashboard"
+        },
+        "AUTH": {
+            "SIGNIN": {
+                "TITLE": "Welcome Back",
+                "SUB_TITLE": "Need an account?",
+                "GENERAL_BUTTON_LABEL": "Signup",
+                "USERNAME": {
+                    "LABEL": "Email",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter valid email address.",
+                    "MAX_LENGTH": "Email ID must be less then 500 characters."
+                },
+                "PASSWORD": {
+                    "LABEL": "Password",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter valid or correct password."
+                },
+                "SUBMIT_BUTTON": {
+                    "LABEL": "Sign In"
+                },
+                "FORGOT_PASSWORD": {
+                    "LABEL": "Forgot Password ?"
+                }
+            },
+            "SIGNUP": {
+                "TITLE": "Experience Autopilot",
+                "SUB_TITLE": "Enter your information to sign up.",
+                "FIRSTNAME": {
+                    "LABEL": "First Name",
+                    "PLACEHOLDER": "First Name",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Please enter your first name.",
+                    "MAX_LENGTH": "First name should not be more than 50 characters.",
+                    "IS_ALPHABET": "Please enter valid first name."
+                },
+                "LASTNAME": {
+                    "LABEL": "Last Name",
+                    "PLACEHOLDER": "Last Name",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Please enter your last name.",
+                    "MAX_LENGTH": "Last name should not be more than 50 characters.",
+                    "IS_ALPHABET": "Please enter valid last name."
+                },
+                "USERNAME": {
+                    "LABEL": "Name",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter your name."
+                },
+                "EMAIL": {
+                    "LABEL": "Work Email",
+                    "PLACEHOLDER": "Work Email",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter a valid email address.",
+                    "EMAIL_FORMAT": "Enter a valid email format.",
+                    "MAX_LENGTH": "Email ID must be less than 500 characters."
+                },
+                "ORGANIZATION": {
+                    "LABEL": "Institution",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter organization.",
+                    "VALIDATION_ERROR_DUPLICATE": "This organization already exists."
+                },
+                "INSTITUTION": {
+                    "LABEL": "Financial Institution",
+                    "PLACEHOLDER": "Financial Institution",
+                    "IS_REQUIRED": "Please enter the financial institution.",
+                    "MAX_LENGTH": "Financial institution should not be more than 50 characters.",
+                    "IS_ALPHABET": "Please enter only alphabet characters."
+                },
+                "DEPARTMENT": {
+                    "LABEL": "Department",
+                    "PLACEHOLDER": "Department",
+                    "IS_REQUIRED": "Please enter the department.",
+                    "MAX_LENGTH": "Department should not be more than 50 characters.",
+                    "IS_ALPHABET": "Please enter only alphabet characters."
+                },
+                "HIERARCHY": {
+                    "LABEL": "Role",
+                    "PLACEHOLDER": "Role",
+                    "IS_REQUIRED": "Please enter the role.",
+                    "MAX_LENGTH": "Role should not be more than 50 characters.",
+                    "IS_ALPHABET": "Please enter only alphabet characters."
+                },
+                "TITLE_LABEL": {
+                    "LABEL": "Title",
+                    "PLACEHOLDER": "Title",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Please enter the title.",
+                    "MAX_LENGTH": "Title should not be more than 50 characters.",
+                    "IS_ALPHABET": "Please enter only alphabet characters."
+                },
+                "PASSWORD": {
+                    "LABEL": "Password",
+                    "PLACEHOLDER": "Password",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter valid password."
+                },
+                "CONFIRMPASSWORD": {
+                    "LABEL": "Confirm Password",
+                    "PLACEHOLDER": "Confirm Password",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Passwords should match."
+                },
+                "TERMS_AND_CONDITIONS": "I agree to BOND.AI's <a href='https://www.bond.ai/privacy.html#termsofuse' target='_blank'> Terms of Use </a> and <a href='https://www.bond.ai/privacy.html#privacypolicy' target='_blank'> Privacy Statement.</a>",
+                "SUBMIT_BUTTON": {
+                    "LABEL": "Sign Up"
+                },
+                "USER_ROLE": {
+                    "LABEL": "Role",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Please select a user role."
+                }
+            },
+            "FORGOT_PASSWORD": {
+                "TITLE": "Forgot Password ?",
+                "SUB_TITLE": "Enter your email to reset your password. We will send the reset link to your registered email address.",
+                "EMAIL": {
+                    "LABEL": "Email",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter valid email address."
+                },
+                "SUBMIT_BTN": {
+                    "LABEL": "Send reset link"
+                }
+            },
+            "RESET_PASSWORD": {
+                "TITLE": "Reset Password",
+                "SUB_TITLE": "Enter a password that you will remember. Make sure to keep it safe.",
+                "TOKEN": {
+                    "LABEL": "",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "This link is invalid and has a missing valid token. Please check your email for the correct reset link."
+                },
+                "EMAIL": {
+                    "LABEL": "",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter valid email address."
+                },
+                "PASSWORD": {
+                    "LABEL": "Create Password",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter password."
+                },
+                "PASSWORD_CONFIRMATION": {
+                    "LABEL": "Confirm Password",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Passwords should match."
+                }
+            }
+        },
+        "BANK": {},
+        "SETTING": {
+            "USERDETAILS": {
+                "TITLE": "Account",
+                "USERFIRSTNAME": {
+                    "LABEL": "First Name",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter first name."
+                },
+                "USERLASTNAME": {
+                    "LABEL": "Last Name",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter last name."
+                },
+                "USEREMAIL": {
+                    "LABEL": "Email",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter valid email ID."
+                },
+                "USEREPHONENUMBER": {
+                    "LABEL": "Phone number",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter valid phone number."
+                }
+            },
+            "CHANGEPASSWORD": {
+                "TITLE": "Password",
+                "OLDPASSWORD": {
+                    "LABEL": "Old Password",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter valid password."
+                },
+                "NEWPASSWORD": {
+                    "LABEL": "New Password",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Enter valid password."
+                },
+                "CONFIRMPASSWORD": {
+                    "LABEL": "Confirm Password",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "The password is not identical."
+                }
+            },
+            "NOTIFICATION": {
+                "TITLE": "Notifications",
+                "DESKTOP": {
+                    "LABEL": "Desktop",
+                    "SUBTITLE": "Receive notifications directly on my Windows.",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Select desktop notification."
+                },
+                "EMAIL": {
+                    "LABEL": "Email",
+                    "SUBTITLE": "Receive notifications directly on your registered Email ID.",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Select email notification."
+                },
+                "PHONEMESSAGE": {
+                    "LABEL": "Phone message",
+                    "SUBTITLE": "Receive message notifications directly on your registered mobile number.",
+                    "PLACEHOLDER": "",
+                    "FINE_TEXT": "",
+                    "VALIDATION_ERROR": "Select phone message notification."
+                }
+            }
+        }
+    },
+    "ACCOUNT_CREATED_SUCCESSFULLY": "Your account was created successfully."
+}

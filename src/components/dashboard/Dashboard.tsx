@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import axiosInstance from "../../axios/axiosInstance";
+import  { useState } from "react";
 import StockCard from "./StockCard";
 type Stock = {
   symbol: string;
@@ -9,7 +8,7 @@ type Stock = {
   change: number;
 };
 const Dashboard = () => {
-  const [stockDataArr, setStockDataArr] = useState<Stock[]>([]);
+  const [stockDataArr] = useState<Stock[]>([]);
   
  
 

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Icon_Restaurants_" data-name="Icon/Restaurants " transform="translate(-445 -745)">
+    <rect id="Rectangle_3892" data-name="Rectangle 3892" width="30" height="30" rx="15" transform="translate(445 745)" fill="#d2f5ed" opacity="0.49"/>
+    <g id="restaurant" transform="translate(451 748.8)">
+      <path id="Path_51114" data-name="Path 51114" d="M22.442,23.071A2.871,2.871,0,1,1,19.571,20.2,2.864,2.864,0,0,1,22.442,23.071Z" transform="translate(-10.269 -10.465)" fill="#00d2a3"/>
+      <path id="Path_51115" data-name="Path 51115" d="M16.3,15.2a4.584,4.584,0,1,0,4.6,4.566A4.6,4.6,0,0,0,16.3,15.2Zm0,8.164A3.58,3.58,0,1,1,19.9,19.8a3.595,3.595,0,0,1-3.6,3.563Z" transform="translate(-6.999 -7.195)" fill="#00d2a3"/>
+      <g id="Group_17877" data-name="Group 17877" transform="translate(1 4.477)">
+        <path id="Path_51116" data-name="Path 51116" d="M3.906,9.981a1.146,1.146,0,0,0-.553.969L3.7,18.284a.772.772,0,0,1-.83.8.813.813,0,0,1-.83-.8l.346-7.3a1.012,1.012,0,0,0-.553-.969A1.915,1.915,0,0,1,1,8.459C1,7.491,1.865,5,2.9,5s1.9,2.456,1.9,3.459a1.719,1.719,0,0,1-.9,1.522Z" transform="translate(-1 -5)" fill="#00d2a3"/>
+      </g>
+      <g id="Group_17878" data-name="Group 17878" transform="translate(13.799 4.2)">
+        <path id="Path_51117" data-name="Path 51117" d="M41.805,5.411V7.936a1.76,1.76,0,0,1-.9,1.522,1.146,1.146,0,0,0-.553.969L40.7,17.76a.763.763,0,0,1-.8.8.813.813,0,0,1-.83-.8l.346-7.3a1.074,1.074,0,0,0-.553-.969A1.861,1.861,0,0,1,38,7.936V5.411a1.155,1.155,0,0,1,.9-1.142V7.59a.346.346,0,0,0,.692,0V4.2h.553V7.59a.346.346,0,0,0,.692,0V4.235a1.212,1.212,0,0,1,.969,1.176Z" transform="translate(-38 -4.2)" fill="#00d2a3"/>
+      </g>
+    </g>
+  </g>
+</svg>

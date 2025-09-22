@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Product" transform="translate(-50 -602)">
+    <g id="Group_18225" data-name="Group 18225" transform="translate(50 602)">
+      <g id="Group_18132" data-name="Group 18132">
+        <circle id="Ellipse_2508" data-name="Ellipse 2508" cx="14" cy="14" r="14" fill="#3686f0"/>
+      </g>
+    </g>
+    <path id="flash" d="M10.648,2,3.962,10.558c-.262.335-.393.5-.395.644a.411.411,0,0,0,.139.317c.1.089.308.089.717.089H9.9l-.751,6.406,6.686-8.558c.262-.335.393-.5.395-.644a.411.411,0,0,0-.139-.317c-.1-.089-.308-.089-.717-.089H9.9Z" transform="translate(54.456 605.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

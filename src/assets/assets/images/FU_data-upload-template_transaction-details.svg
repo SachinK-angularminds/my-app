@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <g data-name="Group 18230">
+        <g data-name="Group 18132">
+            <circle data-name="Ellipse 2508" cx="14" cy="14" r="14" style="fill:#3686f0"/>
+        </g>
+        <g data-name="trade, transaction, payment, trading">
+            <path data-name="Path 51130" d="m21.853 12.116-2.9-2.9a.726.726 0 1 0-1.026 1.026l1.66 1.658H9.726a.726.726 0 0 0 0 1.452H21.34a.726.726 0 0 0 .513-1.239z" transform="translate(-.023 -.23)" style="fill:#fff"/>
+            <path data-name="Path 51131" d="M17.34 17H5.726a.726.726 0 0 0-.513 1.239l2.9 2.9a.726.726 0 1 0 1.026-1.026l-1.661-1.661h9.862a.726.726 0 0 0 0-1.452z" transform="translate(1.074 -2.423)" style="fill:#fff"/>
+        </g>
+    </g>
+</svg>

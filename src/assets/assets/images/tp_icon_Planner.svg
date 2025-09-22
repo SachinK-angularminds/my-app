@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="Planner" transform="translate(-1060 -1487)">
+    <rect id="Rectangle_2422" data-name="Rectangle 2422" width="25" height="25" rx="2" transform="translate(1060 1487)" fill="#f4f4f4"/>
+    <g id="done" transform="translate(1051.449 1493.061)">
+      <rect id="Rectangle_3961" data-name="Rectangle 3961" width="1.937" height="1.13" rx="0.565" transform="translate(24.793 0.939) rotate(90)" fill="#00d2a3"/>
+      <rect id="Rectangle_3962" data-name="Rectangle 3962" width="1.937" height="1.13" rx="0.565" transform="translate(21.671 0.939) rotate(90)" fill="#00d2a3"/>
+      <rect id="Rectangle_3963" data-name="Rectangle 3963" width="1.937" height="1.13" rx="0.565" transform="translate(18.574 0.939) rotate(90)" fill="#00d2a3"/>
+      <path id="Path_51059" data-name="Path 51059" d="M25.549,47.4h-.544v.295a.778.778,0,0,1-1.556,0V47.4H21.9v.295a.778.778,0,1,1-1.556,0V47.4H18.788v.295a.778.778,0,0,1-1.556,0V47.4h-.859a.822.822,0,0,0-.822.822v2.089H26.372V48.222a.822.822,0,0,0-.822-.822Z" transform="translate(0 -45.416)" fill="#00d2a3"/>
+      <path id="Path_51060" data-name="Path 51060" d="M15.551,197.337v5.874a1.206,1.206,0,0,0,1.206,1.206h8.408a1.206,1.206,0,0,0,1.206-1.206v-5.874Zm8.253,2.285-3.2,3.2a.625.625,0,0,1-.439.183h-.009l-.042,0-.033,0-.041-.006h0l-.041-.01-.04-.012h0l-.005,0a.62.62,0,0,1-.079-.035l-.038-.022a.627.627,0,0,1-.067-.047l-.024-.021-.023-.022-1.6-1.6a.627.627,0,1,1,.886-.886l1.156,1.156,2.756-2.756a.627.627,0,1,1,.886.886Z" transform="translate(0 -191.979)" fill="#00d2a3"/>
+    </g>
+  </g>
+</svg>

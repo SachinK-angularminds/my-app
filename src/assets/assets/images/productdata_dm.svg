@@ -1,0 +1,19 @@
+<svg id="Group_18289" data-name="Group 18289" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00d2a3;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_3991" data-name="Rectangle 3991" class="cls-1" width="36" height="36" rx="6"/>
+  <path id="flash" class="cls-2" d="M10.648,2,3.962,10.023c-.262.314-.393.471-.395.6a.375.375,0,0,0,.139.3c.1.083.308.083.717.083H9.9l-.751,6.006,6.686-8.023c.262-.314.393-.471.395-.6a.375.375,0,0,0-.139-.3c-.1-.083-.308-.083-.717-.083H9.9Z" transform="translate(8.102 8.493)"/>
+</svg>

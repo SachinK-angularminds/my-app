@@ -1,11 +1,8 @@
-import React from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import { useAuth } from "../../context/AuthContext";
 import { useNavigate } from "react-router";
 
 function Register() {
-  const { login } = useAuth(); // Or you can create register() in AuthContext
   const navigate = useNavigate();
 
   // ✅ Setup Formik
@@ -27,7 +24,7 @@ function Register() {
         .min(6, "Password must be at least 6 characters")
         .required("Password is required"),
       confirmPassword: Yup.string()
-        .oneOf([Yup.ref("password"), null], "Passwords must match")
+        .oneOf([Yup.ref("password") ], "Passwords must match")
         .required("Confirm password is required"),
     }),
     onSubmit: (values) => {

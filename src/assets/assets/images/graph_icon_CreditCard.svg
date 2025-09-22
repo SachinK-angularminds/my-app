@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+    <g data-name="Group 17477">
+        <g data-name="Group 17010" transform="translate(-610 -695)">
+            <rect data-name="Rectangle 3886" width="26" height="26" rx="4" transform="translate(610 695)" style="fill:#00dbfe"/>
+        </g>
+        <g data-name="Credit Card" transform="translate(4 7)">
+            <g data-name="Group 17476">
+                <rect data-name="Rectangle 2410" width="18.105" height="12.233" rx="2" style="fill:#fff"/>
+                <path data-name="Rectangle 2411" transform="translate(0 2.447)" style="fill:#00dbfe" d="M0 0h18.105v2.447H0z"/>
+            </g>
+            <rect data-name="Rectangle 2412" width="4.404" height="2.936" rx="1" transform="translate(12.233 7.829)" style="fill:#00dbfe"/>
+            <path data-name="Path 18005" d="M9.8 20.133H3.566a.566.566 0 0 1 0-1.133H9.8a.566.566 0 1 1 0 1.133z" transform="translate(-1.301 -11.07)" style="fill:#00dbfe"/>
+            <path data-name="Path 18006" d="M6.4 23.133H3.566a.566.566 0 0 1 0-1.133H6.4a.566.566 0 0 1 0 1.133z" transform="translate(-1.301 -12.371)" style="fill:#00dbfe"/>
+        </g>
+    </g>
+</svg>

@@ -1,4 +1,13 @@
-export default function StockCard({ name, symbol, marketcap, price, change }) {
+type StockCardProps = {
+  name: string;
+  symbol: string;
+  marketCap: string;  // <-- use capital C
+  price: number;
+  change: number;
+};
+
+
+export default function StockCard({ name, marketCap, price, change }:StockCardProps) {
   return (
     <div className="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col">
       <div className="h-40 bg-gray-100 flex items-center justify-center">
@@ -6,7 +15,7 @@ export default function StockCard({ name, symbol, marketcap, price, change }) {
       </div>
       <div className="p-4 flex-1 flex flex-col">
         <h3 className="text-lg font-semibold mb-1">{name}</h3>
-        <p className="text-sm text-gray-500 mb-4">{marketcap}</p>
+        <p className="text-sm text-gray-500 mb-4">{marketCap}</p>
         <div className="mt-auto flex items-center justify-between">
           <div>
             <div className="text-xl font-bold">₹{price}</div>

@@ -1,0 +1,10 @@
+<svg id="Group_9285" data-name="Group 9285" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <rect id="Rectangle_2422" data-name="Rectangle 2422" width="30" height="30" rx="15" fill="#d2f5ed" opacity="0.49"/>
+  <g id="Credit_Card" data-name="Credit Card" transform="translate(6 9.001)">
+    <rect id="Rectangle_2410" data-name="Rectangle 2410" width="18.105" height="12.233" rx="2" fill="#20cea5"/>
+    <rect id="Rectangle_2411" data-name="Rectangle 2411" width="18.105" height="2.447" transform="translate(0 2.447)" fill="#d2f5ed"/>
+    <rect id="Rectangle_2412" data-name="Rectangle 2412" width="4.404" height="2.936" rx="1" transform="translate(12.233 7.829)" fill="#d2f5ed"/>
+    <path id="Path_18005" data-name="Path 18005" d="M9.8,20.133H3.566a.566.566,0,0,1,0-1.133H9.8a.566.566,0,1,1,0,1.133Z" transform="translate(-1.301 -11.07)" fill="#d2f5ed"/>
+    <path id="Path_18006" data-name="Path 18006" d="M6.4,23.133H3.566a.566.566,0,0,1,0-1.133H6.4a.566.566,0,0,1,0,1.133Z" transform="translate(-1.301 -12.371)" fill="#d2f5ed"/>
+  </g>
+</svg>

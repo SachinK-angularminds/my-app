@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+    <g data-name="Group 17299">
+        <g data-name="Group 17010" transform="translate(-610 -695)">
+            <rect data-name="Rectangle 3886" width="26" height="26" rx="4" transform="translate(610 695)" style="fill:#126bc5"/>
+        </g>
+        <path data-name="Path 808" d="M27.695 30a5.514 5.514 0 0 1 .171 1.19 3.032 3.032 0 0 1-.777 2.276c-.574.633-1.248 1.642-1.308 1.644h-3.142c-1.118 0-1.7-.345-1.991-1.027a2.42 2.42 0 0 1 .235-2.342l1.76-1.649z" transform="translate(-10.91 -17.719)" style="fill:#ffbfac"/>
+        <path data-name="Path 809" d="M23.589 28.48v.7l-1.295 1.044a.764.764 0 1 1-1.124-1.035V28.5z" transform="translate(-11.28 -16.619)" style="fill:#eaa38e"/>
+        <path data-name="Path 810" d="M13.927 13.807H7.9a.276.276 0 0 1-.276-.276v-6A.276.276 0 0 1 7.9 7.25h12.91a.276.276 0 0 1 .276.276v6a.276.276 0 0 1-.276.276h-4.52" transform="translate(-1.617 -1.25)" style="fill:#fff"/>
+        <path data-name="Path 811" d="M13.729 16.046a1.1 1.1 0 0 0-1.1-1.1v-1.592a1.1 1.1 0 0 0 1.1-1.1h8.49a1.1 1.1 0 0 0 1.1 1.1v1.588a1.1 1.1 0 0 0-1.1 1.1z" transform="translate(-5.24 -4.87)" style="fill:#e5effc"/>
+        <path data-name="Path 812" d="M29.716 27.829c-.3-.593.057-.888-.683-2.036v-.007a1.383 1.383 0 0 1-.2-.5c-.08-.448.126-.9.948-.962.633-.047 1.306.892 1.745 1.644.284.5.469.911.469.911s.728 1.232-.181 1.439a2.348 2.348 0 0 1-2.098-.489z" transform="translate(-16.957 -13.606)" style="fill:#fab6a2"/>
+        <path data-name="Path 813" d="M26.278 48.06v2.431a.552.552 0 0 1-.552.552h-5.718a.552.552 0 0 1-.552-.552V48.06a.552.552 0 0 1 .552-.552h5.718a.552.552 0 0 1 .552.552z" transform="translate(-10.185 -30.393)" style="fill:#fff"/>
+        <path data-name="Path 814" d="M30.675 16.984a.817.817 0 1 1-.817-.817.817.817 0 0 1 .817.817z" transform="translate(-17.125 -7.705)" style="fill:#cddcf0"/>
+        <path data-name="Path 815" d="M38.138 52.88a.414.414 0 1 1-.356-.465.414.414 0 0 1 .356.465z" transform="translate(-23.112 -33.942)" style="fill:#e0e0e0"/>
+    </g>
+</svg>

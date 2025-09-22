@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.941" height="12" viewBox="0 0 15.941 12">
+  <g id="Icon_list_white" data-name="Icon/list/white" transform="translate(0 -7.434)">
+    <path id="Path_51033" data-name="Path 51033" d="M25.832,47.547H14.747a.827.827,0,0,1,0-1.654H25.831a.827.827,0,0,1,0,1.654Z" transform="translate(-10.716 -28.333)" fill="#fff"/>
+    <path id="Path_51034" data-name="Path 51034" d="M25.832,28.716H14.747a.827.827,0,0,1,0-1.654H25.831a.827.827,0,0,1,0,1.654Z" transform="translate(-10.716 -14.455)" fill="#fff"/>
+    <path id="Path_51035" data-name="Path 51035" d="M25.832,9.885H14.747a.827.827,0,1,1,0-1.654H25.831a.827.827,0,0,1,0,1.654Z" transform="translate(-10.716 -0.577)" fill="#fff"/>
+    <circle id="Ellipse_2489" data-name="Ellipse 2489" cx="1.111" cy="1.111" r="1.111" transform="translate(0 7.434)" fill="#fff"/>
+    <circle id="Ellipse_2490" data-name="Ellipse 2490" cx="1.111" cy="1.111" r="1.111" transform="translate(0 12.323)" fill="#fff"/>
+    <circle id="Ellipse_2491" data-name="Ellipse 2491" cx="1.111" cy="1.111" r="1.111" transform="translate(0 17.212)" fill="#fff"/>
+  </g>
+</svg>
